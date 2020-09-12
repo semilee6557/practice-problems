@@ -1,4 +1,11 @@
 function wordReformer(wordFragment1, wordFragment2) {
-  var word = wordFragment1+wordFragment2;
-  console.log(word);
+  return wordFragment1+wordFragment2;
+
 }
+
+
+console.log(wordReformer("bro", "ken"));
+
+console.log(wordReformer("manipu", "lation"));
+
+console.log(wordReformer("excite", "ment"));
