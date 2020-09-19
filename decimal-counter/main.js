@@ -12,7 +12,6 @@ function decimalPlaceCounter(stringNumber) {
  return decimalPlace;
 }
 
-
 console.log('decimalPlaceCounter("127.245")', decimalPlaceCounter("127.245"));
 console.log('decimalPlaceCounter("145")', decimalPlaceCounter("145"));
 console.log('decimalPlaceCounter("23.00")', decimalPlaceCounter("23.00"));
