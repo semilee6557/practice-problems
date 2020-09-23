@@ -4,12 +4,12 @@ function removeNullValues(array) {
     if (array[i] !== null) {
       result.push(array[i]);
     }
-    return result;
   }
+  return result;
 }
 
 
 
-console.log('removeNullValues([3, 5, null, null, 87, "hello", "goodbye"])', removeNullValues([3, 5, null, null, 87, "hello", "goodbye"]));
-console.log('removeNullValues([true, null, false, {}, null, 43, "node"])', removeNullValues([true, null, false, {}, null, 43, "node"]));
-console.log('removeNullValues([null, null, null, 7, null, "eight"])', removeNullValues([null, null, null, 7, null, "eight"]));
+console.log(removeNullValues([3, 5, null, null, 87, "hello", "goodbye"]));
+console.log(removeNullValues([true, null, false, {}, null, 43, "node"]));
+console.log(removeNullValues([null, null, null, 7, null, "eight"]));
