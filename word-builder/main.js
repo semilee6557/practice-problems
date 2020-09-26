@@ -1,7 +1,5 @@
 function wordBuilder(wordToSpell) {
-  var array = [];
   var spell = [];
-  var position = [];
   var word = '';
   for (var i = 0; i < wordToSpell.length; i++) {
     word += wordToSpell[i]
